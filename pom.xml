@@ -77,6 +77,8 @@
                     <!--<autoVersionSubmodules>true</autoVersionSubmodules>-->
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
+                        <checkModificationExclude>pet-clinic-data/pom.xml</checkModificationExclude>
+                        <checkModificationExclude>pet-clinic-web/pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
                 </configuration>
             </plugin>
@@ -85,7 +87,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/ibtehajraza/sfg-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:ibtehajraza/sfg-pet-clinic.git</developerConnection>
       <tag>sfg-pet-clinic-0.0.1</tag>
   </scm>
 
