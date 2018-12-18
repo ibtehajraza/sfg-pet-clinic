@@ -74,7 +74,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
-                    <!--<autoVersionSubmodules>true</autoVersionSubmodules>-->
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                         <checkModificationExclude>pet-clinic-data/pom.xml</checkModificationExclude>
